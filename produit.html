@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="navigation">
+                <nav>
+                    <ul>
+                        <li><a style="color:#12369D;" href="#">AMAZ</a></li>
+                        <li><a href="#">ACCUEIL</a></li>
+                        <li><a href="#">BOUTIQUES</a></li>
+                    </ul>
+                </nav>
+                <div id="users-nav">
+                    <div class="logo-search">
+                        <img src="img/search.png" alt="">
+                    </div>
+                    <div class="user-element">
+                        <a href="#"><img class="man-user" src="img/man-user.png" alt=""></a>
+                        <a href="#"> <img class="shopping" src="img/shopping.png" alt=""></a>
+                    </div>
+                    <div class="menu-burger">
+                        <ul>
+                            <li><img class="burger" src="img/menu.png" alt="">
+                                <ul class="sub-burg">
+                                    <li><a href="#">ACCUEIL</a></li>
+                                    <li><a href="#">BOUTIQUES</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="diapo">
+                <figure><img src="img/camelmocassin.jpg" alt=""></figure>
+                <figure><img src="img/grismocassin.jpg" alt=""></figure>
+                <figure><img src="img/cuirmocassin.jpg" alt=""></figure>
+            </div>
+            <div class="diapo-principal">
+                <figure><img src="img/noirmocassin.jpg" alt="">
+                    <figcaption><strong>Mocassin Original</strong></figcaption>
+                </figure>
+            </div>
+            <div class="next-prev-moblie">
+                <img class="prev" src="img/left-arrow.png" alt="">
+                <img class="next" src="img/next%20(1).png" alt="">
+                <img class="circle" src="img/circle-outline.png" alt="">
+                <img class="circle2" src="img/circle-outline.png" alt="">
+                <img class="circle3" src="img/circle-outline.png" alt="">
+                <img class="circle4" src="img/circle-outline.png" alt="">
+            </div>
+            <div class="description">
+                <h3>
+                   Mocassin original
+                </h3>
+                <strong>125 $</strong>
+                <br>
+                <br>
+                <p>-Type de boot rond :</p>
+                <br>
+                <p>-Talon: plat -0cm.</p>
+                <br>
+                <p>-Fermeture : Aucune.</p>
+                <br>
+                <p>-Doublure : Synthétique.</p>
+                <br>
+                <p>-Composition : Textile.</p>
+                <div class="add-elments">
+                    <h4><a href="#">AJOUTER AU PANIER</a></h4>
+                </div>
+            </div>
+            <div class="add">
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. </p>
+                <p>-Type de boot rond :</p>
+                <br>
+                <p>-Talon: plat -0cm.</p>
+                <br>
+                <p>-Fermeture : Aucune.</p>
+                <br>
+                <p>-Doublure : Synthétique.</p>
+                <br>
+                <p>-Composition : Textile.</p>
+            </div>
+            <div class="suggestion">
+                <h3>VOUS AIMEREZ AUSSI</h3>
+                <div class="suggestion-element">
+                    <img src="img/noirmocassin5.jpg" alt="">
+                    <img src="img/grismocassin.jpg" alt="">
+                    <img src="img/cuirmocassin.jpg" alt="">
+                    <img class="der" src="img/bleumocassin.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="navigation-footer">
+                <nav>
+                    <ul>
+                        <li>PLAN DU SITE
+                            <ul class="submenu">
+                                <li><a href="#">ACCUEIL</a></li>
+                                <li><a href="#">BOUTIQUES</a></li>
+                                <li><a href="#">NOTRE SOCIETE</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </li>
+                        <li>LE SERVICE APRES VENTE
+                            <ul class="submenu">
+                                <li><a href="#">RECRUTEMENT</a></li>
+                                <li><a href="#">QUESTIONS</a></li>
+                                <li><a href="#">CONTACT RH</a></li>
+                            </ul>
+                        </li>
+                        <li>LES METIERS
+                            <ul class="submenu">
+                                <li><a href="#">AIDE</a></li>
+                                <li><a href="#">QUESTION SAW</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="newletter">
+                    <input type="text" placeholder="NEWSLETTER...">
+                    <span><a href="#">Envoyer</a></span>
+                    <a href="#"><img class="fb" src="img/001-facebook-logo-outline.png" alt=""></a>
+                    <a href="#"> <img class="gg" src="img/003-google-plus-outlined-logo-social-symbol.png" alt=""></a>
+                    <a href="#"><img class="lkd" src="img/002-linkedin-social-outline-logotype.png" alt=""></a>
+                </div>
+                <p>MENTIONS-LEGALES-COPYRIGHT-2017</p>
+            </div>
+        </footer>
+    </main>
+    <script>
+        var burg = document.querySelector('.burger');
+        var sub = document.querySelector('.sub-burg');
+        burg.addEventListener('mouseover', function () {
+            sub.style.display = 'block';
+        })
+        burg.addEventListener('mouseout', function () {
+            sub.style.display = 'none';
+        })
+    </script>
+</body>
+
+</html>
